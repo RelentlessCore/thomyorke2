@@ -1,6 +1,6 @@
 import jsonfile from 'jsonfile';
 import moment from 'moment';
-import simpleGit from 'simple-git';
+import { simpleGit } from 'simple-git';
 
 const git = simpleGit();
 const path = './data.json';
